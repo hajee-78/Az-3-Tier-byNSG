@@ -12,7 +12,7 @@ This project provisions a **3-tier architecture** on Microsoft Azure using modul
 
 ## 📐 Architecture Diagram
 
-![Azure 3-Tier Architecture](./images/azure-3tier-architecture.png)
+![Azure 3-Tier Architecture](./downloads/Azure3TierNSG.png)
 
 > The diagram above shows:
 > - Segregated Web, App, and DB subnets inside a VNet
