@@ -1,4 +1,6 @@
 # Azure 3-Tier Architecture with Terraform
+## This repository helps to build a 3-tier architecture in Azure using modular terraform code.
+---------------------------------------------------------------------------------------------
 
 This project provisions a **3-tier architecture** on Microsoft Azure using modular Terraform code. It includes:
 
