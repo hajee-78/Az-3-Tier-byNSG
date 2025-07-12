@@ -1,6 +1,6 @@
 # Azure 3-Tier Architecture with Terraform
-This project provisions a **3-tier architecture** on Microsoft Azure using modular Terraform code. 
---------------------------------------------------------------------------------------------------
+**This project provisions a **3-tier architecture** on Microsoft Azure using modular Terraform code.**
+------------------------------------------------------------------------------------------------------
 It includes:
 - One Resource Group
 - One Virtual Network with 3 subnets: Web, App, and DB
