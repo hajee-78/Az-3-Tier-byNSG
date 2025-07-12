@@ -36,7 +36,7 @@ subnet_nsg_map = {
         source_port_range          = "*"
         destination_port_range     = "80"
         source_address_prefix      = "*"
-        destination_address_prefix = "web-subnet"
+        destination_address_prefix = "*"
       },
       {
         name                       = "AllowSSH"
@@ -47,7 +47,7 @@ subnet_nsg_map = {
         source_port_range          = "*"
         destination_port_range     = "22"
         source_address_prefix      = "*"
-        destination_address_prefix = "web-subnet"
+        destination_address_prefix = "*"
       },
       {
         name                       = "AllowOutboundtoAppSubnet"
@@ -57,8 +57,8 @@ subnet_nsg_map = {
         protocol                   = "Tcp"
         source_port_range          = "*"
         destination_port_range     = "443"
-        source_address_prefix      = "web-subnet"
-        destination_address_prefix = "app-subnet"
+        source_address_prefix      = "*"
+        destination_address_prefix = "*"
       },
       {
         name                       = "DenyAllOutbound"
@@ -68,7 +68,7 @@ subnet_nsg_map = {
         protocol                   = "*"
         source_port_range          = "*"
         destination_port_range     = "*"
-        source_address_prefix      = "web-subnet"
+        source_address_prefix      = "*"
         destination_address_prefix = "*"
       }
     ]
@@ -83,8 +83,8 @@ subnet_nsg_map = {
       protocol                   = "Tcp"
       source_port_range          = "*"
       destination_port_range     = "443"
-      source_address_prefix      = "web-subnet"
-      destination_address_prefix = "app-subnet"
+      source_address_prefix      = "*"
+      destination_address_prefix = "*"
       }
       , {
         name                       = "AllowOutboundtoDBSubnet"
@@ -94,8 +94,8 @@ subnet_nsg_map = {
         protocol                   = "Tcp"
         source_port_range          = "*"
         destination_port_range     = "1433"
-        source_address_prefix      = "app-subnet"
-        destination_address_prefix = "db-subnet"
+        source_address_prefix      = "*"
+        destination_address_prefix = "*"
         }, {
         name                       = "DenyAllOutbound"
         priority                   = 4096
@@ -104,7 +104,7 @@ subnet_nsg_map = {
         protocol                   = "*"
         source_port_range          = "*"
         destination_port_range     = "*"
-        source_address_prefix      = "app-subnet"
+        source_address_prefix      = "*"
         destination_address_prefix = "*"
     }]
   },
@@ -118,8 +118,8 @@ subnet_nsg_map = {
       protocol                   = "Tcp"
       source_port_range          = "*"
       destination_port_range     = "1433"
-      source_address_prefix      = "app-subnet"
-      destination_address_prefix = "db-subnet"
+      source_address_prefix      = "*"
+      destination_address_prefix = "*"
       }
       , {
         name                       = "DenyAllOutbound"
@@ -129,7 +129,7 @@ subnet_nsg_map = {
         protocol                   = "*"
         source_port_range          = "*"
         destination_port_range     = "*"
-        source_address_prefix      = "db-subnet"
+        source_address_prefix      = "*"
         destination_address_prefix = "*"
     }]
   }
