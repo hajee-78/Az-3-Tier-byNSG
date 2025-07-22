@@ -17,6 +17,7 @@ It includes:
 > - Segregated Web, App, and DB subnets inside a VNet
 > - NSGs assigned to each subnet
 > - Public IP on the Web tier only
+
 ---
 
 ## 📁 Project Structure
