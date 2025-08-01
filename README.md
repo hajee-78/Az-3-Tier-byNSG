@@ -5,7 +5,7 @@ It includes:
 - One Resource Group
 - One Virtual Network with 3 subnets: Web, App, and DB
 - One NSG per subnet with specific rules
-- Linux Virtual Machines in each tier (Web VM has public IP for SSH access)
+- Linux Virtual Machines in each tier (Web VM has public IP for SSH access
 
 ---
 
