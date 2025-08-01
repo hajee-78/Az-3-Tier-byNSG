@@ -11,7 +11,7 @@ It includes:
 
 ## 📐 Architecture Diagram
 
-
+![Azure-3Tier-Architecture]
 
 > The diagram above shows:
 > - Segregated Web, App, and DB subnets inside a VNet
