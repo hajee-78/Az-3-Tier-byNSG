@@ -14,7 +14,7 @@ It includes:
 ![image](https://private-user-images.githubusercontent.com/55215524/473276638-32e7bae5-ac31-490c-af7f-cc97674a2b5c.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTQwMjA3ODIsIm5iZiI6MTc1NDAyMDQ4MiwicGF0aCI6Ii81NTIxNTUyNC80NzMyNzY2MzgtMzJlN2JhZTUtYWMzMS00OTBjLWFmN2YtY2M5NzY3NGEyYjVjLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA4MDElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwODAxVDAzNTQ0MlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWM5MDk4OTdjNDUwZGE3ZDNiNDU5NjE2OGZmNTRmYzYxOThkYmI3ZTk3YzZkNzFjYTk5M2M3MjEzODM0NmEzM2QmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.ik1mm27EIQLReOPF1nTp5xd0wdhfq20123XMFPTWFkc)
 
 > The diagram above shows:
-> - Segregated Web, App, and DB subnets inside a VNet.
+> - Segregated Web, App, and DB subnets inside a VNet
 > - NSGs assigned to each subnet
 > - Public IP on the Web tier only
 
